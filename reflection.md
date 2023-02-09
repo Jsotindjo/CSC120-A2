@@ -1,3 +1,5 @@
 Use this file to record your reflection on this assignment. 
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
+
+I had a lot of trouble with this assignment. At first I had general confusion on how to even get started and find the assignment. Communiucating my issues in class helped with that. Then I had trouble with comprehending the assignment, and in class instruction also helped with that. I attended office hours that same day in order to progress with my work. When it was time to work on the assignment on my own, I sat myself down and attempted to understand what I was being asked. I also searched on google in order to help me debug, and I had a bit of success. However, the most challenging part of this was figuring out how to get my price_change to work. This took a lot of time, effort, and talking myself through the steps. A peice of advice I would offer is to go through the work slowly and at a reasonable pace, so that you understand what your goal is and ask questions if you have them.
