@@ -1,5 +1,5 @@
 class Computer:
-    # What attributes will it need?
+    # This class assigns each part of the computer as a string or an integer.
     description: str
     processor_type: str
     hard_drive_capacity: int
@@ -8,8 +8,7 @@ class Computer:
     year_made: int
     price: int
 
-    # How will you set up your constructor?
-    # Remember: in python, all constructors have the same name (__init__)
+    # The code below assigns each part of the computer with itself
     def __init__(self, description:str, processor_type:str, hard_drive_capacity:int, memory:int, operating_system:str, year_made:int, price:int):
         self.description = description
         self.processor_type = processor_type
@@ -20,7 +19,7 @@ class Computer:
         self.price = price  
         
 
-    # What methods will you need?
+    # This explains how to print the details of the computer
     def print_details(self):
         print(self.description)
         print(self.processor_type)

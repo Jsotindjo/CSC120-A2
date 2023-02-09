@@ -37,7 +37,7 @@ YES 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
-PART 4 pts: Program executes fully & consistently without crashing (exception/freeze)
+YES 4 pts: Program executes fully & consistently without crashing (exception/freeze)
 
 YES 1 pt: Classes & class members all have header comments
 

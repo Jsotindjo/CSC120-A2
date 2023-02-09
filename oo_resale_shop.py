@@ -1,29 +1,31 @@
 from computer import*
 class ResaleShop:
-    # What attributes will it need?
+    # This lets the program know that the inventory will be a list
     inventory: list
 
 
-    # How will you set up your constructor?
-    # Remember: in python, all constructors have the same name (__init__)
+    # This assigns the inventory of the ResaleShop to itself
     def __init__(self):
         self.inventory = []
-    
+    # Takes the inventory and adds an element to the end of the list demonstrating a purchase
     def buy(self, c:Computer):
         self.inventory.append(c)
-
-    def sell(self, c:Computer):
+    # Takes the inventory and takes away an element to the list, demonstrating selling a computer
+    def sell(self, c:Computer,):
         if c in self.inventory:
             self.inventory.remove(c)
-        else: print("Computer is not in inventory. It cannot be sold")
-
+        else: 
+            print("Computer is not in inventory. It cannot be sold")
+    # Takes the inventory and changes its price. If not, prints out a message.
     def price_change(self,c:Computer):
         if c in self.inventory:
-            self.inventory.append(c([6]))
-        else: print("Computer is not in inventory. Price cannot be updated")
+            self.inventory.pop(c(6))
+            print(self.inventory.append(c(1299)))
+        else: 
+            print("Computer is not in inventory. Price cannot be updated")
+
 
         
-
     # What methods will you need?
 def main():
     myStore = ResaleShop()
